@@ -8,7 +8,7 @@
 <div align="center"><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyde_banner.png"><br><br></div>
 
 > **IMPORTANT**
-> This is not a standalone theme, it requires [HyDe](https://github.com/prasanthrangan/hyprdots) to be installed.
+> This is not a standalone theme, it requires [HyDe](https://github.com/HyDE-Project/HyDE) to be installed.
 
 ![t1](./screenshots/ss_1.png)
 ![t2](./screenshots/ss_2.png)
@@ -16,24 +16,35 @@
 
 ## Installation
 
-To install **Moonlight** theme, run the following command:
+#### HyDE Project
+To install **Moonlight** on `HyDE Project`, run the following command:
+```sh
+hydectl theme import --name "Moonlight" --url https://github.com/Maroc02/Moonlight
+```
+
+Alternatively, you can import the theme by running:
+```sh
+hydectl theme import
+```
+
+Then choose **Moonlight** from the options.
+
+#### Hyprdots
+To install **Moonlight** on `Hyprdots`, run the following command:
 
 ```sh
 Hyde theme import "Moonlight" https://github.com/Maroc02/Moonlight
 ```
 
-To install **Moonlight** on `HyDE Project`, run the following command:
-
-```sh
-~/HyDE/Scripts/themepatcher.sh "Moonlight" https://github.com/Maroc02/Moonlight
-```
-
 Alternatively, you can import the theme by running:
-
 ```sh
 Hyde theme import
 ```
 
-Then choose Moonlight from the options.
+Then choose **Moonlight** from the options.
 
-
+#### General
+Alternatively, you can use a general option that works on both `HyDE Project` and `Hyprdots`:
+```sh
+~/HyDE/Scripts/themepatcher.sh "Moonlight" https://github.com/Maroc02/Moonlight
+```
