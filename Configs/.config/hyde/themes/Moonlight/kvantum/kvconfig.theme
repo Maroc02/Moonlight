@@ -1,7 +1,7 @@
 $HOME/.config/Kvantum/wallbash/wallbash.kvconfig
 [%General]
-author=elkrien based on Arc Dark style
-comment=Catppuccin-Mocha-Rosewater
+author=Maroc02
+comment=Moonlight
 spread_menuitems=true
 left_tabs=true
 mirror_doc_tabs=true
